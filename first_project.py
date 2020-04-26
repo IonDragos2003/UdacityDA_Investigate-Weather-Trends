@@ -57,5 +57,9 @@ print (corr_14_day)
 
 # Printing the two plots where we have 7 day MA for London vs 7 day MA for Global and same for 14 day. 
 final_df_7_day.plot(x='year',y=['7_day_MA_local','7_day_MA_global'])
+plt.ylabel ('Average temperature in ºC')
+plt.title ('Avg temp in ºC as a 7-day MA for London vs Global over the years')
 final_df_14_day.plot(x='year',y=['14_day_MA_local','14_day_MA_global'])
+plt.ylabel ('Average temperature in ºC')
+plt.title ('Avg temp in ºC as a 14-day MA for London vs Global over the years')
 plt.show()
