@@ -1,4 +1,4 @@
-# udacity_DA_project0_WeatherTrends
+#UdacityDA_Investigate-Weather-Trends
 The initial, small project submitted as part of my Udacity's Data Analyst Nanodegree
 
 
