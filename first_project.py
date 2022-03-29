@@ -11,7 +11,7 @@ city_temp = pd.read_csv('london.csv')
 global_temp = pd.read_csv('global_temp.csv')
 
 
-''' Renaming the avg_temp columns so I won't have issues when merging them'''
+# Renaming the avg_temp columns so I won't have issues when merging them
 
 city_temp.rename(columns={'avg_temp': 'avg_temp_local'}, inplace=True)
 global_temp.rename(columns={'avg_temp': 'avg_temp_global'}, inplace=True)
